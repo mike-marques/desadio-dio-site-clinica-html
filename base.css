@@ -1,0 +1,162 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: cyan;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #1A3C6C;
+    min-height: 150px;
+}
+
+.content {
+    background-color: lightgray;
+    min-height: 300px;
+    padding: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.footer {
+    background-color: gainsboroy;
+    min-height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu-link {
+    list-style: none;     
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    align-items: left;
+}
+.menu-link li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: left;
+}
+.menu-link li a:hover {
+    color: white;
+    border-radius: 5px
+}
+.menu-link li {
+    margin: 0;   
+}
+.menu-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.imagem {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    display: block;
+    margin-top: 0;
+}
+table.cardiovida {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: solid;
+}
+
+th {
+    border: solid;
+}
+
+tr {
+    border: solid;
+}
+
+table.cardiovida caption {
+    caption-side: top;
+    text-align: center;
+    border: solid;
+    border-bottom: none;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.content iframe {
+    width: 400px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input,
+.campo textarea {
+    width: 300px;
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+.campo label{
+     margin-bottom: 5px;
+}
+
+.button {
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.button button {
+    padding: 5px 10px;
+    width: 100px;
+    cursor: pointer;
+    
+}
+table td:not(.exame),
+table th:not(.exame){
+    text-align: center;
+}
+textarea{
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    
+}
